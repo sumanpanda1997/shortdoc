@@ -1,0 +1,3 @@
+def tokenize(a) :
+     return [x[0] for x in nltk.pos_tag(nltk.word_tokenize(a)) if x[1] in ['NN' ,'JJ','JJR', 'JJS' ,'NNP', 'NNPS', 'NNS' ,'NN']]
+
